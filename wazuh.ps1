@@ -10,7 +10,7 @@ $wazuhPackageFile = "$env:TMP\wazuh-agent-$agentVersion.msi"
 
 # Default configuration
 $defaultConfig = @{
-    ServerAddress = "10.2.2.158"
+    ServerAddress = "x.x.x.x"
     AgentGroup    = "default"
     Groups        = @("default", "Groupe", "Services", "Tube")
 }
